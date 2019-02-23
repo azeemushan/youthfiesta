@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+#youthfiesta{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  }
+.content{
+  position: fixed;
+  /*-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5000ms infinite;
+  color: #888888;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 40px;
+  }
+
+h1
+{
+	text-align: center;
+	color: #f91;
+	font-weight: bold;
+  	font-family: sans-serif cursive;
+  	font-size: 60px;
+  	background: rgba(100,100,100,0.3);
+  }
+
+p{
+	column-count: 3;
+}
+
+form{
+	width: 30%;
+	margin: 10px auto;
+	border:none;
+	border-radius: 1%;
+	justify-content: center;
+}
+
+.input-group{
+margin:10px ;
+padding: 3%;
+color: #f91;
+}
+
+.input-group input{
+	height: : 50px;
+	width: 93%;
+	font-size: 1rem;
+	color: #f91;
+	padding: 12px;
+	border: none;
+	background: rgba(50,50,50,0.4);
+	border-radius: 6px;
+
+}
+
+.btn{
+	padding: 20px;
+	font-size: 15px;
+	color:white;
+	background: #5f9ea0;
+	border: none;
+	border-radius: 5px;
+	justify-content: center;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {background-color: rgba(20,200,256,0.6);}
+  to {background-color: rgba(256,0,0,0.6);}
+}
+
+/* Standard syntax 
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+*/
